@@ -1,5 +1,5 @@
-import { DataTypes, Model, Optional, Sequelize, UUIDV4 } from "sequelize";
-import db from "../config/database";
+import { DataTypes, Model, Sequelize, UUIDV4, type Optional } from "sequelize";
+import db from "../config/database.js";
 
 interface TodosModelAttributes {
    id: string

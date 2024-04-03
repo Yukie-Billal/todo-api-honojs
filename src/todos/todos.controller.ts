@@ -1,5 +1,5 @@
-import { Context } from "hono"
-import TodosModel from "./todos.model"
+import { type Context } from "hono"
+import TodosModel from "./todos.model.js"
 
 const getTodos = async (c: Context) => {
    const todos = await TodosModel.findAll()

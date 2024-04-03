@@ -9,5 +9,19 @@
     ],
     "jsx": "react-jsx",
     "jsxImportSource": "hono/jsx",
-  }
+    "outDir": "./dist",
+
+    "esModuleInterop": true,
+    // "customConditions": ["module"],
+    // "noEmit": true,
+    "allowImportingTsExtensions": false,
+    // "allowArbitraryExtensions": true,
+    // "verbatimModuleSyntax": true,
+    // "sourceMap": true
+  } ,
+  "include": ["./src/**/*"],
+  "exclude": [
+    "node_modules",
+    "./node_modules"
+  ]
 }

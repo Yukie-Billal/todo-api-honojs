@@ -1,6 +1,6 @@
 import { serve } from '@hono/node-server'
 import { Hono } from 'hono'
-import TodoRouter from './todos/todos.router'
+import TodoRouter from './todos/todos.router.js'
 
 const app = new Hono()
 
